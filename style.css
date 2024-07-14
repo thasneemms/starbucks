@@ -1,0 +1,47 @@
+.container{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+img3{
+    width: 50%;
+
+}
+.text{
+    padding-left: 20px;
+}
+
+
+.image-text-container{
+    display: flex;
+    text-align: center;
+}
+
+.image-text-container img{
+    margin-right: 20px;
+}
+
+iframe {
+    border: 2px solid rgb(190, 221, 198);
+    border-radius: 5px; /* optional */
+    box-shadow: 0 0 10px rgba(121, 192, 164, 0.1); /* optional */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+
+  }
+  
+.rounded-image{
+    content: attr(alt);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 35px;
+    margin-bottom: 35px;
+    width: 150px;
+    height: 150px;
+}
+  
+
+
